@@ -1,0 +1,46 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.imagem{
+    display: table-cell;
+    float: left;
+}
+
+.texto{
+    display: table-cell;
+    padding-top: 20px;
+    padding-left: 40px;   
+}
+
+.btn {     
+    text-decoration: none;
+    font-weight: 600;
+    border: 3px solid #000000;
+    color: #000000;
+    border-radius: 10px;    
+    padding: 15px 20px;
+    transition: 0.7s;
+}
+
+.btn:hover {
+    border: 3px solid transparent;
+    background: #000000;
+    color: #ffffff;
+}
+
+.logo2 {
+    padding-left: 10px;    
+    margin-top: -50px;
+}
+
+p {       
+    font-size: 25px;
+    max-width: 600px;
+    padding-bottom: 15px;       
+}
+
+
+
+
+

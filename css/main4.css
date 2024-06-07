@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+
+.container {    
+    width: 100vh;
+    height: 100vh;    
+    margin-top: -50px;
+    overflow: hidden;
+}
+
+
+.container .list .list-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.container .list .list-item img {
+    object-fit: cover;    
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+.container .list .list-item .content {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    padding-right: 30%;
+    width: 80%;
+    color: #eee;
+    text-shadow: 0 5px 10px #0004;
+}
+
+.container .list .list-item .title{
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.container .list .list-item .description{
+    font-size: 1.5em;
+}
+
+/* Botao Saiba Mais */
+
+.container .list .list-item .buttons{
+    display: grid;
+    grid-template-columns: 130px;
+    grid-template-rows: 50px;
+    margin-top: 20px;
+    
+}
+
+.container .list .list-item .buttons button{
+    letter-spacing: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 3px solid #eee;
+    color: #eee;
+    border-radius: 10px;   
+}
+
+.container .list .list-item .buttons button:hover{
+    background-color: #eee;
+    color: #000;
+    transition: 0.7s;
+}
+
+/* Fim do Botao Saiba Mais */
+
+
+.container .thumb {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    display: flex;
+    gap: 20px;
+}
+
+.container .thumb .thumb-item {
+    width: 135px;
+    height:  200px;
+    position: relative;
+}
+
+.container .thumb .thumb-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(80%);
+}
+
+.container .thumb .content {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #eee;
+}
+
+/*
+.container .arrows {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    gap: 10px;
+    bottom: 200px;
+    left: 10px;
+    width: 300px;
+}
+*/
+
+/* Botao Next Prev */
+
+.container .arrows .back {
+    display: flex;
+    align-items: center;
+    position:absolute;
+    bottom: 250px;
+    left: 10px;
+    
+}
+
+.container .arrows .next {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 250px;
+    right: 10px;
+}
+
+.container .arrows button{
+    border-radius: 10px;
+    border: none;
+    padding: 12px 17px;
+    background-color: #eee4;
+    color: #eee;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.container .arrows button:hover{
+    background-color: #eee;
+    color: #000;
+    transition: 0.7s;
+}
+
+/* Fim do Botao Next Prev */
